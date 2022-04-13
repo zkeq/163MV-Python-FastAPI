@@ -27,7 +27,13 @@ pip install -r requirements.txt
 python main.py # or python3 main.py
 ```
 
-4. 本项目可运行于 `Repilt`
+4. 本项目可运行于 `Repilt `
+
+> 具体步骤就是创建一个 `Flask` 的示例项目，
+> 
+> 先跑一下试试，如果能跑起来就把本项目里的所有文件都复制过去（？）
+> 
+> `Repilt` 内置 `node.js` 环境，`node_modules/crypto-js` 可通过 `npm install crypto-js` 来安装。
 
 5. 搭建好后，去部署`vercel API`即可，服务端主要起到读取缓存和请求后端的效果。
 
