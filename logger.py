@@ -1,33 +1,36 @@
 # coding:utf-8
+from loguru import logger
+
+logger.add("./log/file_{time}.log", rotation="2 MB")
 
 
 def logger_error(msg):
-    print(msg)
+    logger.error(msg)
 
 
 def logger_warning(msg):
-    print(msg)
+    logger.warning(msg)
 
 
 def logger_debug(msg):
-    print(msg)
+    logger.debug(msg)
 
 
 def logger_exception(msg):
-    print(msg)
+    logger.exception(msg)
 
 
 def logger_critical(msg):
-    print(msg)
+    logger.critical(msg)
 
 
 def logger_success(msg):
-    print(msg)
+    logger.success(msg)
 
 
 def logger_info(msg):
-    print(msg)
+    logger.info(msg)
 
 
 def logger_trace(msg):
-    print(msg)
+    logger.trace(msg)
