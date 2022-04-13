@@ -27,7 +27,7 @@ pip install -r requirements.txt
 python main.py # or python3 main.py
 ```
 
-4. 本项目可运行于 `Repilt` [![Run on Replit](https://replit.com/badge/github/zkeq/163MV-Python-FastAPI)](https://replit.com/github/zkeq/163MV-Python-FastAPI)
+4. 本项目可运行于 `Repilt`
 
 5. 搭建好后，去部署`vercel API`即可，服务端主要起到读取缓存和请求后端的效果。
 
