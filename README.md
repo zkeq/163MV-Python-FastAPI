@@ -6,7 +6,7 @@
 - https://163.icodeq.com 的服务端（需要 `Redis` 来做数据库来支持缓存功能）
 - 需要 `node.js` 环境才能运行
 - 示例地址为：https://163mv.icodeq.com
-- 示例文档为：https://163mv.icodeq.com
+- 示例文档为：https://163mv.icodeq.com/docs
 
 ### 搭建步骤
 
