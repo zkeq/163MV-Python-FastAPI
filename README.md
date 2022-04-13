@@ -39,6 +39,6 @@ python main.py # or python3 main.py
 
 6. （为什么要分开呢？是因为我找不到 `vercel` 怎么同时部署 `Fast API` 和 `node.js` 环境..
 
-7. Vercel 的服务端地址在这里：[zkeq/163MV-API-Vercel](https://github.com/zkeq/163MV-API-Vercel)
+7. Vercel 的客户端地址在这里：[zkeq/163MV-API-Vercel](https://github.com/zkeq/163MV-API-Vercel)
 
-8. 部署好这个去部署服务端就可以了
+8. 部署好这个去部署客户端就可以了
