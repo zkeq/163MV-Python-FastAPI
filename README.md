@@ -25,6 +25,7 @@ python main.py # or python3 main.py
 
 4. 本项目可运行于 `Repilt` [![Run on Replit](https://replit.com/badge/github/zkeq/163MV-Python-FastAPI)](https://replit.com/github/zkeq/163MV-Python-FastAPI)
 
-5. 搭建好后，去部署`vercel API`即可，前端主要起到读取缓存和请求后端的效果。
+5. 搭建好后，去部署`vercel API`即可，服务端主要起到读取缓存和请求后端的效果。
 6. （为什么要分开呢？是因为我找不到 `vercel` 怎么同时部署 `Fast API` 和 `node.js` 环境..
-7. Vercel 的部分稍后会放出
+7. Vercel 的服务端地址在这里：[zkeq/163MV-API-Vercel](https://github.com/zkeq/163MV-API-Vercel)
+8. 部署好这个去部署服务端就可以了
