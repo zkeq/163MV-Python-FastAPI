@@ -1,11 +1,14 @@
 # coding:utf-8
 import redis
 import logger as lg
+import os
+
+PASSOWRD = os.environ.get('REDIS_PASSWORD')
 
 r = redis.Redis(
-    host='xxxxxxxxxxxxxxxxxxx.upstash.io',
-    port=XXXXX,
-    password='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', ssl=True)
+  host= 'apn1-destined-giraffe-32369.upstash.io',
+  port= '32369',
+  password= PASSOWRD, ssl=True)
 
 
 def post_mv_2_redis(_video_id, _video_url):
